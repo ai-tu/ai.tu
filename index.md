@@ -208,5 +208,4 @@ function onClick(element) {
 }
 </script>
 
-</body>
-</html>
+
