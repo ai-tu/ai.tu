@@ -11,6 +11,9 @@ body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 <body>
 
 <!-- Sidebar/menu -->
@@ -153,7 +156,31 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge w3-text-black"><b>Kontakt</b></h1>
     <hr style="width:50px;border:4px solid black" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
-    <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a></p>
+    <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a> oder nutze unsere Kontaktform:</p>
+    <div class="contact-form" id="contact">
+		<div class="container">
+			<form action="mailto:pandemicnomad@contact.com?subject=Contact Pandemic Nomad" method="post" enctype="text/plain">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 right">
+					<div class="form-group">
+						<input type="text" class="input" placeholder="Dein Name" name="name">
+					</div>
+					<div class="form-group">
+						<input type="email" class="input" placeholder="DeineEmail@email.com" name="mail">
+					</div>
+					<div class="form-group">
+						<textarea class="inputbox" name="message">
+							
+						</textarea>
+					</div>
+					<input type="submit" class="button" value="Absenden" name="">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
     
   </div>
 
