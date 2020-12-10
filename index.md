@@ -13,6 +13,7 @@ body {font-size:16px;}
 </style>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/scss" href=" home/assets/style.scss ">
 </head>
 <body>
 
