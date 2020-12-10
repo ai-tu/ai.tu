@@ -125,7 +125,7 @@ body {font-size:16px;}
         <div class="w3-container">
           <h3>Ulrike Schäfer</h3>
           <p class="w3-opacity">Mitglied</p>
-          <p>Ulrike interessiert sich besonders für Machine Learning, inbesondere für Unsupervised Learning.</p>
+          <p>Ulrike interessiert sich besonders für Data Science, Visualisierung und Wissenschaftskommunikation.</p>
         </div>
       </div>
     </div>
