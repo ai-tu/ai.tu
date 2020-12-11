@@ -68,7 +68,7 @@ body {font-size:16px;max-width: 100%;}
   <div class="w3-container" id="Über uns" style="margin-top:50px">
     <h1 class="w3-xxxlarge w3-text-black"><b>Über uns</b></h1>
     <hr style="width:50px;border:4px solid black" class="w3-round">
-    <p>AI.TU ist eine studentische Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
+    <p>AI.TU ist eine studentische Hochschulgruppe / Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
     <p>
       Es ist uns ein Anliegen, künstliche Intelligenz ganzheitlich zu behandeln und weder die technisch, noch die gesellschaftlich Fragestellungen zu vernachlässigen.
     </p>
