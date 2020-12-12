@@ -11,7 +11,7 @@ w3-container{
 }
 
 .button {
-	background-color: #000;
+	background-color: #616161;
 	border: none;
 	color: #f4f4f4;
 	padding: 5px 16px;
@@ -28,7 +28,7 @@ w3-container{
 
 .button:hover {
 	background-color:  #84B59F;
-	color: #fff ;
+	color: #616161 ;
 	box-shadow: 5px 7px rgb(136, 136, 136, 0.1);
 }
 
