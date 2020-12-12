@@ -155,7 +155,6 @@ body {font-size:16px;}
     <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
 	<div class="team" id="team">
 	<div class="container">
-	   <h1 class="text-center">Our Team</h1>
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-12 item">
 				<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
