@@ -190,7 +190,7 @@ body {font-size:16px;}
   </div>
 
   <!-- Kontakt -->
-  <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 50px">
+  <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 5px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Kontakt</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
