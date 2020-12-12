@@ -63,7 +63,7 @@ body {font-size:16px;}
   <!-- Über uns -->
   <div class="w3-container" id="Über uns" style="margin-top:50px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Über uns</b></h1>
-    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
+    <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p>AI.TU ist eine studentische Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
     <p>
       Es ist uns ein Anliegen, künstliche Intelligenz ganzheitlich zu behandeln und weder die technisch, noch die gesellschaftlich Fragestellungen zu vernachlässigen.
@@ -76,7 +76,7 @@ body {font-size:16px;}
   <!-- Mitglieder -->
   <div class="w3-container" id="Mitglieder" style="margin-top:50px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Mitglieder</b></h1>
-    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
+    <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p> Wir sind eine interdisziplinäre Gruppe von Menschen mit verschiedenen Interessenschwerpunkten, die sich aus verschiedenen Motivationen mit der Materie befassen. 
     </p>
     <p><b>Wer sind wir?</b></p>
@@ -152,7 +152,7 @@ body {font-size:16px;}
   <!-- Kontakt -->
   <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 50px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Kontakt</b></h1>
-    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
+    <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
     <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a> oder nutze unsere Kontaktform:</p>
     <div class="contact-form" id="contact">
