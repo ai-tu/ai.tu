@@ -23,7 +23,7 @@ body {font-size:16px;}
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Über uns</a> 
     <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mitglieder</a> 
-    <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a>
+   <!--  <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a> -->
     <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontakt</a>
   </div>
 </nav>
