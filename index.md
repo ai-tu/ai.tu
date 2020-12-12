@@ -122,7 +122,7 @@ body {font-size:30px;}
         <img src="member_pictures_formatted/placeholder.png" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Ulrike Schäfer</h3>
-          <p class="w3-opacity">Mitglied</p>
+          <p class="w3-opacity">Gründungsmitglied</p>
           <p>Ulrike interessiert sich besonders für Data Science, Visualisierung und Kommunikation wissenschaftlicher Themen.</p>
         </div>
       </div>
