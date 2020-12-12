@@ -119,7 +119,7 @@ body {font-size:30px;}
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="member_pictures_formatted/placeholder.jpg" alt="Jane" style="width:100%">
+        <img src="member_pictures_formatted/placeholder.png" alt="Jane" style="width:100%"">
         <div class="w3-container">
           <h3>Ulrike Schäfer</h3>
           <p class="w3-opacity">Mitglied<br> <br> </p>
