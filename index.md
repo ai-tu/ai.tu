@@ -14,7 +14,7 @@ body {font-size:16px;}
 		<title>AI.TU</title>
 </head>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-dark-gray w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;left: 0;">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>AI.TU - Artificial<br>Intelligence Group</b></h3>
@@ -28,8 +28,8 @@ body {font-size:16px;}
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
+<header class="w3-container w3-top w3-hide-large w3-dark-gray w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-dark-gray w3-margin-right" onclick="w3_open()">☰</a>
   <span>Artificial Intelligence at TU Berlin</span>
 </header>
 
@@ -52,8 +52,8 @@ body {font-size:16px;}
   </div>
 
   <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+  <div id="modal01" class="w3-modal w3-dark-gray" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-dark-gray w3-xxlarge w3-display-topright">×</span>
     <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
       <img id="img01" class="w3-image">
       <p id="caption"></p>
@@ -62,8 +62,8 @@ body {font-size:16px;}
 
   <!-- Über uns -->
   <div class="w3-container" id="Über uns" style="margin-top:50px">
-    <h1 class="w3-xxxlarge w3-text-black"><b>Über uns</b></h1>
-    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Über uns</b></h1>
+    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
     <p>AI.TU ist eine studentische Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
     <p>
       Es ist uns ein Anliegen, künstliche Intelligenz ganzheitlich zu behandeln und weder die technisch, noch die gesellschaftlich Fragestellungen zu vernachlässigen.
@@ -75,8 +75,8 @@ body {font-size:16px;}
   
   <!-- Mitglieder -->
   <div class="w3-container" id="Mitglieder" style="margin-top:50px">
-    <h1 class="w3-xxxlarge w3-text-black"><b>Mitglieder</b></h1>
-    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Mitglieder</b></h1>
+    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
     <p> Wir sind eine interdisziplinäre Gruppe von Menschen mit verschiedenen Interessenschwerpunkten, die sich aus verschiedenen Motivationen mit der Materie befassen. 
     </p>
     <p><b>Wer sind wir?</b></p>
@@ -151,8 +151,8 @@ body {font-size:16px;}
   <!-- Kontakt -->
   <!-- Kontakt -->
   <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 50px">
-    <h1 class="w3-xxxlarge w3-text-black"><b>Kontakt</b></h1>
-    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Kontakt</b></h1>
+    <hr style="width:50px;border:4px solid dark-gray" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
     <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a> oder nutze unsere Kontaktform:</p>
     <div class="contact-form" id="contact">
