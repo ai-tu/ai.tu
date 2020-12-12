@@ -156,7 +156,6 @@ body {font-size:30px;}
     <div class="team" id="team">
     <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
         <div class="col-lg-3 col-md-3 col-sm-12 item">
 	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
 	<div class="des">
@@ -164,28 +163,23 @@ body {font-size:30px;}
 	 </div>
 	<span class="text-muted">Manager</span>
 	</div>
-      </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
         <div class="col-lg-3 col-md-3 col-sm-12 item">
 	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
 	<div class="des">
 		Sara
 	 </div>
 	<span class="text-muted">Manager</span>
-        </div>
       </div>
     </div>
       <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
        <div class="col-lg-3 col-md-3 col-sm-12 item">
 	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
 	<div class="des">
 		Sara
 	 </div>
 	<span class="text-muted">Manager</span>
-	</div>
       </div>
       </div>      
     </div>
