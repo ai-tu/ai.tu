@@ -148,7 +148,7 @@ body {font-size:16px;}
       </div>
     </div>
 
-  <!-- Projekte -->
+  <!-- Projekte 
   <div class="w3-container" id="Projekte" style="margin-top:10px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
@@ -187,7 +187,7 @@ body {font-size:16px;}
 		</div>
 		</div>
 	</div>
-  </div>
+  </div> -->
 
   <!-- Kontakt -->
   <div class="w3-container" id="Kontakt" style="margin-top:50px; padding-bottom: 50px">
