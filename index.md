@@ -149,8 +149,8 @@ body {font-size:30px;}
       </div>
     </div>
 
-  <!-- Projekte 
-  <div class="w3-container" id="Projekte" style="margin-top:10px">
+  <!-- Projekte -->
+  <div class="w3-container" id="Projekte" style="margin-top:1000px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
@@ -188,7 +188,7 @@ body {font-size:30px;}
 		</div>
 		</div>
 	</div>
-  </div> -->
+  </div> 
 
   <!-- Kontakt -->
   <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 50px">
