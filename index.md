@@ -90,7 +90,7 @@ body {font-size:16px;}
         <img src="member_pictures_formatted/NicolasFrey.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Nicolas Frey  <br> </h3>
-          <p class="w3-opacity">Gründungsmitglied & Vorstand <br> <br> <br> </p>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand <br> <br> </p>
           <p>Nicolas interessiert sich vorwiegend für explainable Artificial Intelligence und Deep Learning.</p>
         </div>
       </div>
@@ -142,7 +142,7 @@ body {font-size:16px;}
         <img src="member_pictures_formatted/RajmundStankiewicz.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Rajmund Stankiewicz</h3>
-          <p class="w3-opacity">Gründungsmitglied</p>
+          <p class="w3-opacity"> <br> Gründungsmitglied</p>
           <p>Rajmund beschäftigt sich momentan vornehmlich mit Data Science und Data Engineering.  <br>   <br> </p>
         </div>
       </div>
@@ -153,6 +153,41 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
+	<div class="team" id="team">
+	<div class="container">
+	   <h1 class="text-center">Our Team</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Sara
+				 </div>
+				<span class="text-muted">Manager</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	 Chris
+				 </div>
+				<span class="text-muted">S.enginner</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-2.jpg" class="img-fluid" alt="team">
+				<div class="des">
+				 	Layla 
+				 </div>
+				<span class="text-muted">Front End Developer</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="images/team-3.jpg" class="img-fluid" alt="team">
+				 <div class="des">
+				 	J.Jirard
+				 </div>
+				<span class="text-muted">Team Manger</span>
+			</div>
+		</div>
+		</div>
+	</div>
   </div>
 
   <!-- Kontakt -->
