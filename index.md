@@ -83,7 +83,7 @@ body {font-size:16px;}
     <p><b>Wer sind wir?</b></p>
   </div>
 
-  <!-- Über uns -->
+  <!-- Über uns (Mitgliederliste) -->
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
@@ -150,7 +150,7 @@ body {font-size:16px;}
 
   <!-- Projekte -->
   <div class="w3-container" id="Projekte" style="margin-top:50px">
-    <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Über uns</b></h1>
+    <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
   </div>
