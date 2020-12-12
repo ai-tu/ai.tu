@@ -45,7 +45,8 @@
 
 .inputbox{
 	box-sizing: border-box;
-	width: 60%;
+	width: 80%;
+	min-width: 50px;
 	padding: 0.5em;
 	margin:0.8em;
 	border: 2px solid #eee;
