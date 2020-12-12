@@ -149,7 +149,7 @@ body {font-size:16px;}
     </div>
 
   <!-- Projekte -->
-  <div class="w3-container" id="Projekte" style="margin-top:50px">
+  <div class="w3-container" id="Projekte" style="margin-top:10px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
@@ -190,7 +190,7 @@ body {font-size:16px;}
   </div>
 
   <!-- Kontakt -->
-  <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 5px">
+  <div class="w3-container" id="Kontakt" style="margin-top:50px; padding-bottom: 50px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Kontakt</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
