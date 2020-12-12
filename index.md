@@ -21,11 +21,11 @@ body {font-size:30px;}
     <h3 class="w3-padding-64"><b>AI.TU</b></h3>
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:10px">Home</a> 
-    <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:10px">Über uns</a> 
-    <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:10px">Mitglieder</a> 
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Home</a> 
+    <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Über uns</a> 
+    <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Mitglieder</a> 
    <!--  <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a> -->
-    <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:10px" >Kontakt</a>
+    <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px" >Kontakt</a>
   </div>
 </nav>
 
