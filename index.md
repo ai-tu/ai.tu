@@ -24,7 +24,7 @@ body {font-size:30px;}
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Home <br> </a> 
     <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Über uns  <br> </a> 
     <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Mitglieder  <br> </a> 
-   <!--  <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a> -->
+   < <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a>
     <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px" >Kontakt</a>
   </div>
 </nav>
