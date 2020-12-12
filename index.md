@@ -29,7 +29,7 @@ body {font-size:30px;}
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-dark-gray w3-xlarge w3-padding">
+<header class="w3-container w3-top w3-hide-large w3-dark-gray w3-xlarge w3-padding-64">
   <a href="javascript:void(0)" class="w3-button w3-dark-gray w3-margin-right" onclick="w3_open()">☰</a>
   <span>AI.TU</span>
 </header>
