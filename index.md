@@ -10,6 +10,10 @@ body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
+<head>
+		<title>AI.TU</title>
+</head>
+
 <body>
 
 <!-- Sidebar/menu -->
