@@ -153,42 +153,43 @@ body {font-size:30px;}
   <div class="w3-container" id="Projekte" style="margin-top:1000px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
-    <p> Wir freuen uns immer über neue Projektideen und Challenges. Einige unsere aktuellen, vergangenen und geplanten Projekte sind:</p>
-	<div class="team" id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				 	Sara
-				 </div>
-				<span class="text-muted">Manager</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				 	 Chris
-				 </div>
-				<span class="text-muted">S.enginner</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
-				<div class="des">
-				 	Layla 
-				 </div>
-				<span class="text-muted">Front End Developer</span>
-			</div>
-			<div class="col-lg-3 col-md-3 col-sm-12 item">
-				<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
-				 <div class="des">
-				 	J.Jirard
-				 </div>
-				<span class="text-muted">Team Manger</span>
-			</div>
-		</div>
-		</div>
+    <div class="team" id="team">
+    <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="col-lg-3 col-md-3 col-sm-12 item">
+	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
+	<div class="des">
+		Sara
+	 </div>
+	<span class="text-muted">Manager</span>
 	</div>
-  </div> 
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="col-lg-3 col-md-3 col-sm-12 item">
+	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
+	<div class="des">
+		Sara
+	 </div>
+	<span class="text-muted">Manager</span>
+        </div>
+      </div>
+    </div>
+      <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+       <div class="col-lg-3 col-md-3 col-sm-12 item">
+	<img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" class="img-fluid" alt="team">
+	<div class="des">
+		Sara
+	 </div>
+	<span class="text-muted">Manager</span>
+	</div>
+      </div>
+      </div>      
+    </div>
+	
 
   <!-- Kontakt -->
   <div class="w3-container" id="Kontakt" style="margin-top:500px; padding-bottom: 50px">
