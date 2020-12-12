@@ -4,10 +4,10 @@
   max-width: 75%;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lucida Console');
 
 w3-container{
-	font-family: "Montserrat";
+	font-family: "Lucida Console";
 	color: red;
 }
 
