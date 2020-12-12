@@ -14,7 +14,6 @@ body {font-size:16px;}
 		<title>AI.TU</title>
 </head>
 <!-- Sidebar/menu -->
-<body>
 <nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;left: 0;">Close Menu</a>
   <div class="w3-container">
@@ -206,4 +205,3 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 </script>
-</body>
