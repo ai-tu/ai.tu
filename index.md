@@ -196,7 +196,7 @@ body {font-size:30px;}
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
     <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a> oder nutze unsere Kontaktform:</p>
-    <div class="contact-form" id="contact">
+   <!-- <div class="contact-form" id="contact">
 		<div class="container">
 			<form action="mailto:pandemicnomad@contact.com?subject=Contact Pandemic Nomad" method="post" enctype="text/plain">
 				<div class="row">
@@ -221,7 +221,7 @@ body {font-size:30px;}
 		</div>
 	</div>
     
-  </div>
+  </div>-->
 
 <!-- End page content -->
 </div>
