@@ -24,7 +24,7 @@ body {font-size:30px;}
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Home <br> </a> 
     <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Über uns  <br> </a> 
     <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px">Mitglieder  <br> </a> 
-   < <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a>
+   <!-- <a href="#Projekte" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projekte</a> -->
     <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="padding:15px" >Kontakt</a>
   </div>
 </nav>
@@ -149,7 +149,7 @@ body {font-size:30px;}
       </div>
     </div>
 
-  <!-- Projekte -->
+  <!-- Projekte 
   <div class="w3-container" id="Projekte" style="margin-top:500px">
     <h1 class="w3-xxxlarge w3-text-dark-gray"><b>Projekte</b></h1>
     <hr style="width:50px;border:4px solid #616161" class="w3-round">
@@ -182,7 +182,7 @@ body {font-size:30px;}
 	<span class="text-muted">Manager</span>
       </div>
       </div>      
-    </div>
+    </div> -->
 	
 
   <!-- Kontakt -->
