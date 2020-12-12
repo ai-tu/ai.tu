@@ -47,7 +47,7 @@ body {font-size:16px;}
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div>
-      <img src="box_logo.png" style="width:100%;display: block;margin-left: auto; margin-right: auto; width: 50%;" alt="AI.TU - Studentische Hochschulgruppe der TU Berlin">
+      <img src="box_logo.png" style="width:100%;display: block;margin-left: auto; margin-right: auto; width: 100%;" alt="AI.TU - Studentische Hochschulgruppe der TU Berlin">
 
   </div>
 
