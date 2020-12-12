@@ -57,12 +57,12 @@
 /*blog style*/
 
 .blog{
-	margin: 4em 0;
+	margin: 1em 0;
 	position: relative;	
 }
 .blog h1{
 	color:#F97300;
-	margin: 2em;	
+	margin: 1em;	
 }
 .blog .card{
 	box-shadow: 0 0 20px #ccc;
@@ -72,7 +72,7 @@
 	height: 12em;
 }
 
-@media and (max-width: 768px){
+@media and (max-width: 100%){
  .team .item img{
  	width: 100%;
  }	
@@ -85,7 +85,7 @@
 	padding: 1em;
 }
 .team{
-	margin: 4em 0;
+	margin: 1em 0;
 	position: relative;
 
 }
@@ -104,7 +104,7 @@
 	border-top-right-radius: 93%;
 	transition:.3s ease-in-out;
 	position: absolute;
-	width: 88%;
+	width: 100%;
 	bottom: 24px;
 
 
