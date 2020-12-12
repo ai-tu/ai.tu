@@ -5,21 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;max-width: 100%;}
+body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
-<head>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/scss" href="assets/style.scss ">
-</head>
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px;left: 0;">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>AI.TU - Artificial<br>Intelligence Group</b></h3>
   </div>
@@ -68,7 +65,7 @@ body {font-size:16px;max-width: 100%;}
   <div class="w3-container" id="Über uns" style="margin-top:50px">
     <h1 class="w3-xxxlarge w3-text-black"><b>Über uns</b></h1>
     <hr style="width:50px;border:4px solid black" class="w3-round">
-    <p>AI.TU ist eine studentische Hochschulgruppe / Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
+    <p>AI.TU ist eine studentische Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
     <p>
       Es ist uns ein Anliegen, künstliche Intelligenz ganzheitlich zu behandeln und weder die technisch, noch die gesellschaftlich Fragestellungen zu vernachlässigen.
     </p>
@@ -126,7 +123,7 @@ body {font-size:16px;max-width: 100%;}
         <div class="w3-container">
           <h3>Ulrike Schäfer</h3>
           <p class="w3-opacity">Mitglied</p>
-          <p>Ulrike interessiert sich besonders für Data Science, Visualisierung und Wissenschaftskommunikation.</p>
+          <p>Ulrike interessiert sich besonders für Machine Learning, inbesondere für Unsupervised Learning.</p>
         </div>
       </div>
     </div>
@@ -157,31 +154,7 @@ body {font-size:16px;max-width: 100%;}
     <h1 class="w3-xxxlarge w3-text-black"><b>Kontakt</b></h1>
     <hr style="width:50px;border:4px solid black" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
-    <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a> oder nutze unsere Kontaktform:</p>
-    <div class="contact-form" id="contact">
-		<div class="container">
-			<form action="mailto:pandemicnomad@contact.com?subject=Contact AI TU" method="post" enctype="text/plain">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-					</div>
-					<div class="col-lg-8 col-md-8 col-sm-12 right">
-					<div class="form-group">
-						<input type="text" class="input" placeholder="Dein Name" name="name">
-					</div>
-					<div class="form-group">
-						<input type="email" class="input" placeholder="DeineEmail@email.com" name="mail">
-					</div>
-					<div class="form-group">
-						<textarea class="inputbox" name="message">
-							
-						</textarea>
-					</div>
-					<input type="submit" class="button" value="Absenden" name="">
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
+    <p>Schreibe uns gern eine E-Mail: <a href="mailto:TUB_AI_Group@web.de">TUB_AI_Group@web.de</a></p>
     
   </div>
 
@@ -208,5 +181,3 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 </script>
-
-
