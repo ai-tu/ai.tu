@@ -37,7 +37,7 @@ body {font-size:16px;}
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer;left: 0;" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:200px;margin-right:40px">
+<div class="w3-main" style="margin-left:200px;margin-right:10px">
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:40px" id="showcase">
