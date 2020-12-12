@@ -203,10 +203,10 @@ body {font-size:20px;}
 					</div>
 					<div class="col-lg-8 col-md-8 col-sm-12 right">
 					<div class="form-group">
-						<input type="text" class="input" placeholder="Dein Name" name="name">
+						<input type="text" class="form-control" placeholder="Dein Name" name="name">
 					</div>
 					<div class="form-group">
-						<input type="email" class="input" placeholder="DeineEmail@email.com" name="mail">
+						<input type="email" class="form-control" placeholder="DeineEmail@email.com" name="mail">
 					</div>
 					<div class="form-group">
 						<textarea class="inputbox" name="message">
