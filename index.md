@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:20px;}
+body {font-size:23px;}
 .w3-half img{margin-bottom:-6px;margin-top:20px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
@@ -15,7 +15,7 @@ body {font-size:20px;}
 </head>
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-dark-gray w3-collapse w3-top w3-large w3-padding" style="z-index:4;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:25px;left: 0;">Close Menu</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:27px;left: 0;">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-70"><b>AI.TU</b></h3>
   </div>
