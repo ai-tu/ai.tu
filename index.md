@@ -14,7 +14,7 @@ body {font-size:23px;}
 		<title>AI.TU</title>
 </head>
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-dark-gray w3-collapse w3-top w3-large w3-padding" style="z-index:4;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-dark-gray w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:27px;left: 0;">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-70"><b>AI.TU</b></h3>
