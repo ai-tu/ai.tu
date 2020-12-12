@@ -6,14 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body{
-	padding: 0;
-	margin: 0;
-	background:#fff;
+w3-container{
 	font-family: "Montserrat";
-	position: relative;
-	min-height: 120vh;
-	width: 100%;
 }
 
 .button {
