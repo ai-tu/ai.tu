@@ -89,7 +89,7 @@ body {font-size:16px;}
         <img src="member_pictures_formatted/NicolasFrey.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Nicolas Frey</h3>
-          <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand <br> <br> </p>
           <p>Nicolas interessiert sich vorwiegend für explainable Artificial Intelligence und Deep Learning.</p>
         </div>
       </div>
@@ -109,7 +109,7 @@ body {font-size:16px;}
         <img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Sven Schulz-Niethammer</h3>
-          <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand  <br> <br> </p>
           <p>Sven interessiert sich besonders für komplexe statistische Modelle und Data Science.</p>
         </div>
       </div>
