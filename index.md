@@ -90,7 +90,7 @@ body {font-size:16px;}
         <img src="member_pictures_formatted/NicolasFrey.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Nicolas Frey</h3>
-          <p class="w3-opacity">Gründungsmitglied & Vorstand <br> <br> </p>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand <br> <br> <br> </p>
           <p>Nicolas interessiert sich vorwiegend für explainable Artificial Intelligence und Deep Learning.</p>
         </div>
       </div>
@@ -143,7 +143,7 @@ body {font-size:16px;}
         <div class="w3-container">
           <h3>Rajmund Stankiewicz</h3>
           <p class="w3-opacity">Gründungsmitglied</p>
-          <p>Rajmund beschäftigt sich momentan vornehmlich mit Data Science und Data Engineering.</p>
+          <p>Rajmund beschäftigt sich momentan vornehmlich mit Data Science und Data Engineering.  <br>   <br> </p>
         </div>
       </div>
     </div>
