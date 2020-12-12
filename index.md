@@ -11,7 +11,8 @@ body {font-size:30px;}
 .w3-half img:hover{opacity:0.9}
 </style>
 <head>
-		<title>AI.TU</title>
+	<title>AI.TU</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-dark-gray w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;position: fixed;left: 0;" id="mySidebar"><br>
