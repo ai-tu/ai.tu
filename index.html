@@ -30,7 +30,7 @@ body {font-size:16px;}
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding" id="header_small">
   <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
   <span>Artificial Intelligence at TU Berlin</span>
 </header>
@@ -91,8 +91,8 @@ body {font-size:16px;}
 	</div>
 
 	<div style="margin-bottom: 25px">
-		<h3>Das Kurt'sche Ethikkommitee</h3>
-		Um jeglichen Spaß bei der Umsetzung von ML-Projekten präventiv entgegenzuwirken, setzen wir uns hier mit den katastrophalen gesellschaftlichen Auswirkungen unseres programmatischen Handelns auseinander. 
+		<h3>Perspektivwechsel</h3>
+		Um Machine Learning nicht nur von der technischen Seite zu beleuten, setzen wir uns hier mit anderen (oft sozialwissenschaftlich-kritischen) Perspektiven auf ML auseinander und didsktutieren diese in kleiner und großer Runde. 
 	</div>
 
 	<div style="margin-bottom: 25px">
@@ -114,43 +114,43 @@ body {font-size:16px;}
   </div>
 
   <!-- Mitglieder 2 -->
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding w3-grayscale" id = "members_all">
 
-    <div class="w3-col m3 w3-margin-bottom">
-      <div class="w3-light-grey" style="height:650px">
-        <img src="member_pictures_formatted/NicolasFrey.jpg" alt="Jane" style="width:100%">
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
+        <img src="member_pictures_formatted/NicolasFrey.jpg" alt="Jane", style="width:100%">
         <div class="w3-container">
-          <h3>Nicolas <br>Frey</h3>
+          <h3>Nicolas Frey</h3>
           <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
           <p>Nicolas interessiert sich vorwiegend für explainable Artificial Intelligence und Deep Learning.</p>
         </div>
       </div>
     </div>
 
-    <div class="w3-col m3 w3-margin-bottom">
-      <div class="w3-light-grey" style="height:650px">
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
         <img src="member_pictures_formatted/LeonardPleiss.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Leonard Santiago Pleiss</h3>
+          <h3>Leonard Pleiss</h3>
           <p class="w3-opacity">Gründer & Vorstandsvorsitzender</p>
           <p>Leonards besonderes Interesse gilt der Erforschung und   Reproduktion menschlichen Bewusstseins.</p>
         </div>
       </div>
     </div>
 
-    <div class="w3-col m3 w3-margin-bottom">
-      <div class="w3-light-grey" style="height:650px">
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
         <img src="member_pictures_formatted/LukasSeiling.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Lukas Kurt<br> Seiling</h3>
+          <h3>Lukas Seiling</h3>
           <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
-          <p>Lukas beschäftigt sich mit den gesellschaftlichen Auswirkungen und Regulierungsmöglichkeiten von AI.</p>
+          <p>Lukas beschäftigt sich mit den gesellschaftlichen Auswirkungen und Möglichkeiten der Regulierung von AI.</p>
         </div>
       </div>
     </div>
 
-    <div class="w3-col m3 w3-margin-bottom">
-      <div class="w3-light-grey" style="height:650px">
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
         <img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Sven Schulz-Niethammer</h3>
@@ -163,7 +163,7 @@ body {font-size:16px;}
   </div>
   
   <!-- Kontakt -->
-  <div class="w3-container" id="Kontakt" style="margin-top:50px; padding-bottom: 50px">
+  <div class="w3-container" id="Kontakt" style="margin:auto">
     <h1 class="w3-xxxlarge w3-text-black"><b>Kontakt</b></h1>
     <hr style="width:50px;border:4px solid black" class="w3-round">
     <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
@@ -207,6 +207,7 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
+/*
 //material contact form animation
 $('.contact-form').find('.form-control').each(function() {
   var targetItem = $(this).parent();
@@ -231,6 +232,8 @@ $('.contact-form').find('.form-control').blur(function() {
       'top': '25px',
       'fontSize': '18px'
     }, 300);
+
+*/
 
 </script>
 

@@ -55,3 +55,46 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#FFFFFF; color:black; border:2px solid #000000;}
+
+
+@media only screen and (max-width: 540px) {
+  #header_small {
+    display: none;
+  }
+
+  #members_all {
+    height: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #header_small {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 541px) {
+  #members_all {
+    display: flex;
+    height: 100%
+  }
+
+  .member_box {
+    align-items: stretch
+  }
+
+  #member2 {
+    height: 100%
+  }
+
+  #member3 {
+    height: 100%
+  }
+
+  #member4 {
+    height: 100%
+  }
+
+}
