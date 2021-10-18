@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="index.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>AI.TU - Artificial<br>Intelligence Group</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#Über uns" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Über uns</a> 
+    <a href="#Aktivitäten" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Aktivitäten</a> 
+    <a href="#Mitglieder" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mitglieder</a> 
+    <a href="#Kontakt" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontakt</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding" id="header_small">
+  <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Artificial Intelligence at TU Berlin</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:40px" id="showcase">
+
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div>
+      <img src="box_logo.png" style="width:100%" alt="AI.TU - Studentische Hochschulgruppe der TU Berlin">
+
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Über uns -->
+  <div class="w3-container" id="Über uns" style="margin-top:50px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Über uns</b></h1>
+    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <p>AI.TU ist eine studentische Organisation der Technischen Universität Berlin zu den Themen Künstliche Intelligenz und Machine Learning.</p>
+    <p>
+      Es ist uns ein Anliegen, künstliche Intelligenz ganzheitlich zu behandeln und weder die technisch, noch die gesellschaftlich Fragestellungen zu vernachlässigen.
+    </p>
+    <p>
+    Inhaltliche Schwerpunkte hierbei sind der regelmäßige Austausch über klassische und aktuelle Forschungsbeiträge, die Diskussion über ethische Aspekte der AI-Forschung, die gemeinsame Konzeption und Umsetzung selbstgewählter Forschungsprojekte. In diesen versuchen wir, praxisorientierte und theoriegetriebene Herangehensweisen zu verbinden und unser Verständnis des Themengebietes zu vertiefen. 
+    </p>
+  </div>
+
+    <!-- Aktivitäten -->
+  <div class="w3-container" id="Aktivitäten" style="margin-top:50px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Aktivitäten</b></h1>
+    <hr style="width:50px;border:4px solid black" class="w3-round">
+	
+	<div style="margin-bottom: 25px">
+		<h3>Projektgruppen</h3>
+		Gemeinsam bilden wir eigenständige Projektgruppen, um Machine Learning-Anwendungen für Fragestellungen zu entwickeln, die uns persönlich am Herzen liegen.
+	</div>
+
+	<div style="margin-bottom: 25px">
+		<h3>Kaggle-Team</h3>
+		Kaggle ist eine Data Science-Plattform, auf welcher regelmäßig Machine Learning-Wettbewerbe stattfinden. Im Kaggle-Team widmen wir uns der gemeinsamen Bearbeitung dieser Competitions, um unsere Kenntnisse auf neue Anwendungsbereiche zu übertragen.
+	</div>
+
+	<div style="margin-bottom: 25px">
+		<h3>Perspektivwechsel</h3>
+		Um Machine Learning nicht nur von der technischen Seite zu beleuten, setzen wir uns hier mit anderen (oft sozialwissenschaftlich-kritischen) Perspektiven auf ML auseinander und disktutieren diese in kleiner und großer Runde. 
+	</div>
+
+	<div style="margin-bottom: 25px">
+		<h3>Teamevents</h3>
+		Natürlich darf der Spaß nicht zu kurz kommen - deshalb veranstalten wir alle 2 Mal im Semester ein Teamevent, in dem wir die gemeinsam erreichten Erfolge angemessen begießen.
+	</div>
+
+    
+
+  </div>
+  
+  <!-- Mitglieder -->
+  <div class="w3-container" id="Mitglieder" style="margin-top:50px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Mitglieder</b></h1>
+    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <p> Wir sind eine interdisziplinäre Gruppe von Menschen mit verschiedenen Interessenschwerpunkten, die sich aus verschiedenen Motivationen mit der Materie befassen. 
+    </p>
+    <p><b>Wer sind wir?</b></p>
+  </div>
+
+  <!-- Mitglieder 2 -->
+  <div class="w3-row-padding w3-grayscale" id = "members_all">
+
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
+        <img src="member_pictures_formatted/NicolasFrey.jpg" alt="NicolasFrey", style="width:100%">
+        <div class="w3-container">
+          <h3>Nicolas Frey</h3>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
+          <p>Nicolas interessiert sich vorwiegend für explainable Artificial Intelligence und Deep Learning.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
+        <img src="member_pictures_formatted/LeonardPleiss.jpg" alt="LeonardPleiss" style="width:100%">
+        <div class="w3-container">
+          <h3>Leonard Pleiss</h3>
+          <p class="w3-opacity">Gründer & Vorstandsvorsitzender</p>
+          <p>Leonards besonderes Interesse gilt der Erforschung und   Reproduktion menschlichen Bewusstseins.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
+        <img src="member_pictures_formatted/LukasSeiling.jpg" alt="LukasSeiling" style="width:100%">
+        <div class="w3-container">
+          <h3>Lukas Seiling</h3>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
+          <p>Lukas beschäftigt sich mit den gesellschaftlichen Auswirkungen und Möglichkeiten der Regulierung von AI.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m3 w3-margin-bottom member_box">
+      <div class="w3-light-grey" style="height: 100%">
+        <img src="member_pictures_formatted/SvenSchulz-Niethammer.jpg" alt="SvenSchulz-Niethammer" style="width:100%">
+        <div class="w3-container">
+          <h3>Sven Schulz-Niethammer</h3>
+          <p class="w3-opacity">Gründungsmitglied & Vorstand</p>
+          <p>Sven interessiert sich besonders für komplexe statistische Modelle und Data Science.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <!-- Kontakt -->
+  <div class="w3-container" id="Kontakt" style="margin:auto">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Kontakt</b></h1>
+    <hr style="width:50px;border:4px solid black" class="w3-round">
+    <p>Du möchtest in unserer Gruppe mitarbeiten oder mehr über uns erfahren? Wir freuen uns, von dir zu hören!</p>
+
+<form action="https://formspree.io/f/xyylvzrk" method="POST">      
+  <input name="name" type="name" class="feedback-input" placeholder="Name" />   
+  <input name="_replyto" type="email" class="feedback-input" placeholder="E-Mail" />
+  <textarea name="message" class="feedback-input" placeholder="Your Message"></textarea>
+  <button type="submit">SUBMIT</button>
+</form>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+</body>
+</html>
