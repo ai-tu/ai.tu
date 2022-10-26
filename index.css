@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "pop";
+    src: url("home/Poppins/Poppins-Black.ttf");
+}
+.pop {
+    font-family: "pop";
+}
 
 @font-face {
     font-family: "mon";
     src: url(" home/Montserrat/static/Montserrat-Black.ttf");
 }
-
 .mon {
     font-family: "mon";
 }
